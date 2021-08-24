@@ -1,0 +1,732 @@
+.fontMe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(./1.jpg);
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 80px;
+    font-family: 'viga', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jumbotron .nama {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 10px;
+    font-family: 'Numans', sans-serif;
+}
+
+
+/* Info Panel */
+.info-panel {
+    background-color: rgb(15, 38, 53);
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: -70px;
+    
+}
+
+.info-panel img {
+    width: 49px;
+    height: 49px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* VISI MISI */
+.atas {
+    margin-top: 80px;
+}
+
+.atas h2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.visi {
+    color: rgb(15, 38, 53);
+    margin-left: 0px;
+    font-size: 25px;
+    font-family: 'viga', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bp {
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -5px;
+    font-size: 14px;
+    font-family: 'Numans', sans-serif;
+}
+
+.bp span {
+    font-weight: bold;
+}
+
+
+
+
+
+    /* Khitan Massal */
+    /* .backgroundKhitan {
+        background-color: rgb(15, 38, 53);
+        height: 800px;
+        width: 2000px;
+        margin: 0px;
+        margin-left: -110px;
+        margin-right: -110px;
+        margin-top: 100px;
+        
+    } */
+    .headingKhitan {
+        margin-top: 10px;
+        margin-right: 25px;
+       padding: 5px;
+       /* color: white; */
+       font-family: 'viga', sans-serif;
+       font-weight: bold;
+       font-size: 25px;
+    }
+    .paragrafKhitan {
+        padding-top: 5px;
+        padding-left: 5px;
+        text-align: justify;
+        margin-right: 25px;
+        font-size: 14px;
+        font-family: 'Numans', sans-serif;
+        /* color: white; */
+    }
+    .paragrafKhitan p span {
+        font-weight: bold;
+    }
+    .imgKhitan {
+        width: 350px;
+        height: 350px;
+    }
+    .khitan {
+        padding: 10px;
+        margin-left: 30px;
+        margin-top: 25px;
+        
+    }
+    .comingSoonP {
+        font-family: "viga", sans-serif;
+        font-size: 16px;
+    }
+    .sponsorship {
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Jadwal */
+    .bgputih {
+        width: 1350px;
+        margin-top: -70px;
+        margin-left: -300px;
+        height: 230px;
+        margin-right: -300px;
+        
+        background-color: rgb(255, 255, 255);
+    }
+    .bggelap {
+        width: 445px;
+        margin-top: 40px;
+        margin-left: -300px;
+        height: 700px;
+        margin-right: -300px;
+        background-color: rgb(15, 38, 53);
+    }
+    .tagP {
+        margin-top: 100px;
+        margin-right: 50px;
+        margin-right: 50px;
+        
+    }
+    .tagline {
+        font-family: 'Lalezar', cursive;
+        margin-right: 30px;
+        color: rgb(0, 0, 0);
+    }
+    .tagline2 {
+        font-family: 'Lalezar', cursive;
+        margin-right: 60px;
+        color: rgb(0, 0, 0);
+        margin-top: -15px;
+    }
+    .PRemaja {
+        text-align: justify;
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        margin-left: 15px;
+        font-family: 'Numans', sans-serif;
+    }
+
+
+    .colKiri {
+        margin-left: 340px;
+    }
+    .colKanan {
+        margin-right: 300px;
+        margin-left: 325px;
+        
+    }
+    .rowJadwal {
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .rowJadwal2 {
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .hariJadwal {
+        color: white;
+        font-family: 'Numans', sans-serif;
+        font-size: 14px;
+    }
+    .libur {
+        color: #d5e91f;
+        margin-left: 20px;
+        margin-top: -4px;
+    }
+    .catatan {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        font-size: 11px;
+    }
+    .pJadwal {
+        color: white;
+        margin-left: 20px;
+        margin-top: -4px;
+        font-size: 11px;
+    }
+    .bulat {
+        width: 10px;
+        height: 10px;
+    }
+    /* AKhir Jadwal */
+
+
+
+
+
+
+
+
+
+     /* Awal Bazzar */
+     .bgKuning {
+        width: 445px;
+        margin-top: -80px;
+        margin-left: -20px;
+        height: 650px;
+
+        
+        background-color: rgb(213, 233, 31);
+    }
+
+    .Bazzar {
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 350px;
+        height: 250px;
+       
+    }
+    .bzR {
+        margin-top: 80px;
+        font-family: 'Lalezar', cursive;
+        margin-left: 50px;
+        color: rgb(29, 29, 29);
+        font-size: 40px;
+        padding-top: 25px;
+    }
+    .bzr2 {
+        font-family: 'Lalezar', cursive;
+        margin-left: 50px;
+        color: rgb(29, 29, 29);
+        margin-top: -15px;
+        font-size: 40px;
+    }
+
+    .pBazzar {
+        font-family: 'Numans', sans-serif;
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-right: 50px;
+    }
+    .pBazzar2 {
+        font-family: 'Numans', sans-serif;
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .pBazzar span {
+        font-weight: bold;
+    }
+    .pBazzar2 span {
+        font-weight: bold;
+    }
+    /* Akhir Bazzar */
+
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(182, 182, 0);
+        border-radius: 50px;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 800px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 50px;
+        margin-top: 250px;
+    }
+
+    .jumbotron .nama {
+        color: white;
+        text-align: center;
+        font-size: 29px;
+        padding-bottom: 20px;
+    }
+
+    /* Info Panel */
+    .info-panel {
+        background-color: rgb(15, 38, 53);
+        box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: -150px;
+        
+    }
+
+    .info-panel img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info-panel h4 {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 10px;
+        font-size: 24px;
+        color: white;
+    }
+
+    .garis {
+        background-color: rgb(182, 182, 0);
+        width: 8px;
+        height: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* VISI MISI */
+    .atas {
+        margin-top: 80px;
+    }
+    
+    .atas h2 {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .visi {
+        color: rgb(15, 38, 53);
+        margin-left: 0px;
+        font-size: 50px;
+        font-family: 'viga', sans-serif;
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .misi {
+        color: rgb(15, 38, 53);
+        margin-left: 0px;
+        font-size: 50px;
+        font-family: 'viga', sans-serif;
+    }
+
+    .bp {
+        text-align: justify;
+        margin: 20px;
+        font-size: 15px;
+        font-family: 'Numans', sans-serif;
+    }
+
+    .bp span {
+        font-weight: bold;
+    }
+
+    /* Tagline */
+  
+
+
+    /* Khitan Massal */
+    /* .backgroundKhitan {
+        background-color: rgb(15, 38, 53);
+        height: 800px;
+        width: 2000px;
+        margin: 0px;
+        margin-left: -110px;
+        margin-right: -110px;
+        margin-top: 100px;
+        
+    } */
+    .headingKhitan {
+        margin-top: 0;
+       padding: 30px;
+       /* color: white; */
+       font-family: 'viga', sans-serif;
+       font-weight: bold;
+       font-size: 40px;
+    }
+    /* .bgParagraf {
+        width: 40px;
+        height: 100px;
+    } */
+    .paragrafKhitan {
+        padding-top: 5px;
+        padding-left: 30px;
+        text-align: justify;
+        font-size: 18px;
+        font-family: 'Numans', sans-serif;
+        /* color: white; */
+    }
+    .paragrafKhitan p span {
+        font-weight: bold;
+    }
+    .imgKhitan {
+        width: 467px;
+        height: 467px;
+    }
+    .khitan {
+        padding: 80px;
+        margin-left: -15px;
+    }
+    .garisKhitan {
+        background-color: rgb(213, 233, 31);
+        width: 10px;
+        height: 460px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        
+    }
+    .comingSoonP {
+        font-family: "viga", sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Jadwal */
+    .bgputih {
+        width: 1350px;
+        margin-top: -70px;
+        margin-left: -300px;
+        height: 230px;
+        margin-right: -300px;
+        
+        background-color: rgb(255, 255, 255);
+    }
+    .bggelap {
+        width: 1350px;
+        margin-top: 40px;
+        margin-left: -300px;
+        height: 550px;
+        margin-right: -300px;
+        
+        background-color: rgb(15, 38, 53);
+    }
+    .tagP {
+        margin-top: 100px;
+        margin-right: 50px;
+        margin-right: 50px;
+        
+    }
+    .tagline {
+        font-family: 'Lalezar', cursive;
+        margin-right: 30px;
+        color: rgb(0, 0, 0);
+    }
+    .tagline2 {
+        font-family: 'Lalezar', cursive;
+        margin-right: 60px;
+        color: rgb(0, 0, 0);
+        margin-top: -15px;
+    }
+    .PRemaja {
+        text-align: justify;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+        margin-left: 15px;
+        font-family: 'Numans', sans-serif;
+    }
+
+
+    .colKiri {
+        margin-left: 340px;
+    }
+    .colKanan {
+        margin-right: 300px;
+        margin-left: 0px;
+    }
+    .rowJadwal {
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .rowJadwal2 {
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .hariJadwal {
+        color: white;
+        font-family: 'Numans', sans-serif;
+        font-size: 15px;
+    }
+    .libur {
+        color: #d5e91f;
+        margin-left: 20px;
+        margin-top: -8px;
+    }
+    .catatan {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .pJadwal {
+        color: white;
+        margin-left: 20px;
+        margin-top: -8px;
+        font-size: 14px;
+    }
+    .bulat {
+        width: 10px;
+        height: 10px;
+    }
+    /* AKhir Jadwal */
+
+
+
+
+
+
+
+
+
+
+    /* Awal Bazzar */
+    .bgKuning {
+        width: 1350px;
+        margin-top: -100px;
+        margin-left: -120px;
+        height: 1150px;
+        margin-right: -300px;
+        
+        background-color: rgb(213, 233, 31);
+    }
+
+    .Bazzar {
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 100px;
+        width: 850px;
+        height: 550px;
+       
+    }
+    .bzR {
+        margin-top: 100px;
+        font-family: 'Lalezar', cursive;
+        margin-left: 200px;
+        color: rgb(29, 29, 29);
+        font-size: 70px;
+    }
+    .bzr2 {
+        font-family: 'Lalezar', cursive;
+        margin-left: 200px;
+        color: rgb(29, 29, 29);
+        margin-top: -15px;
+        font-size: 70px;
+    }
+    .pBazzar {
+        font-family: 'Numans', sans-serif;
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .pBazzar2 {
+        font-family: 'Numans', sans-serif;
+        margin-left: 220px;
+        margin-right: 100px;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .pBazzar span {
+        font-weight: bold;
+    }
+    .pBazzar2 span {
+        font-weight: bold;
+    }
+    /* Akhir Bazzar */
+
+
+
+
+
+
+    
+    /* Rapat */
+    .bggelap2 {
+        width: 1350px;
+        margin-top: 0px;
+        margin-left: -120px;
+        height: 1500px;
+        margin-right: -310px;
+        
+        background-color: rgb(15, 38, 53);
+    }
+    .rowRapat {
+        padding-top: 80px;
+        padding-right: -40px;
+    }
+    .headingRapat {
+        margin-top: 200px;
+        font-family: 'Lalezar', cursive;
+        margin-left: 170px;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+    }
+    .headingRapat2 {
+        margin-top: -20px;
+        font-family: 'Lalezar', cursive;
+        margin-left: 170px;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+    }
+    .headingRapat2 span {
+        color: rgb(213, 233, 31);
+    }
+    .imgRapat {
+        margin-top: 30px;
+        width: 800px;
+        height: 450px;
+        padding-left: 50px;
+
+    }
+
+    /* Akhir Rapat */
+
+}
+

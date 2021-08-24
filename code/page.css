@@ -1,0 +1,78 @@
+
+.bgabu {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+}
+.fml {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.mgsaya {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.anggotab {
+    text-align: center;
+    font-family: 'viga', sans-serif;
+    font-size: 20px;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(182, 182, 0);
+        border-radius: 50px;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+
+    }
+
+    .fml {
+        font-family: 'Fugaz One', cursive;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .dataR {
+        text-align: center;
+        margin-top: 60px;
+        margin-left: -390px;
+        font-weight: bold;
+    }
+
+    .mgsaya {
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+
+    .anggotab {
+        text-align: center;
+        font-family: 'viga', sans-serif;
+        font-size: 20px;
+    }
+
+    .femail {
+        margin-left: -15px;
+    }
+
+
+    
+
+}
