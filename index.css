@@ -15,37 +15,53 @@
         }
         
         
+        .garis {
+            margin-top: -20px;
+            width: 7px;
+            height: 90px;
+            background-color: #d5e91f;
+            animation: garis 1.5s ease infinite;
+        }
+    
+        @keyframes garis {
+            0% {
+                height: 15px;
+            }
+            100% {
+                height: 90px;
+            }
+        }
         .elementAwal {
             padding: 100px;
-            margin-bottom: 50px;
-            margin-top: 50px;
+            margin-bottom: -160px;
+            margin-top: 100px;
         }
         .Masjid {
-            width: 150.000px;
-            height: 150.000px;
-            margin-left: 80px;
-            margin-top: -200px;
+            width: 280.000px;
+            height: 280.000px;
+            margin-left: -18px;
+            margin-top: 160px;
         }
         .himpunan {
-            margin-top: 30px;
+            margin-top: -30px;
             font-family: 'Lalezar', cursive;
-            font-size: 30px;
+            font-size: 25px;
             color: #0f2635;
-            margin-left: -80px;
+            margin-left: 40px;
         }
         .him2 {
             font-family: 'Lalezar', cursive;
             margin-top: -15px;
-            font-size: 30px;
+            font-size: 25px;
             color: #0f2635;
-            margin-left: -80px;
+            margin-left: 40px;
         }
         .nama {
             font-family: 'Numans', sans-serif;
-            margin-top: -15px;
+            margin-top: -5px;
             font-size: 15px;
             color: #0f2635;
-            margin-left: -80px;
+            margin-left: 40px;
         }
         
         
@@ -213,6 +229,54 @@
 
 
 @media screen and (min-width: 375px) {
+    .garis {
+        margin-top: -20px;
+        width: 7px;
+        height: 90px;
+        background-color: #d5e91f;
+        animation: garis 1.5s ease infinite;
+    }
+
+    @keyframes garis {
+        0% {
+            height: 15px;
+        }
+        100% {
+            height: 90px;
+        }
+    }
+    .elementAwal {
+        padding: 100px;
+        margin-bottom: -160px;
+        margin-top: 100px;
+    }
+    .Masjid {
+        width: 280.000px;
+        height: 280.000px;
+        margin-left: -18px;
+        margin-top: 160px;
+    }
+    .himpunan {
+        margin-top: -30px;
+        font-family: 'Lalezar', cursive;
+        font-size: 25px;
+        color: #0f2635;
+        margin-left: 40px;
+    }
+    .him2 {
+        font-family: 'Lalezar', cursive;
+        margin-top: -15px;
+        font-size: 25px;
+        color: #0f2635;
+        margin-left: 40px;
+    }
+    .nama {
+        font-family: 'Numans', sans-serif;
+        margin-top: -5px;
+        font-size: 15px;
+        color: #0f2635;
+        margin-left: 40px;
+    }
     #Khitan img {
         width: 100%;
         height: 350px;
@@ -451,6 +515,9 @@
 /* Dekstop */
 @media (min-width: 992px) {
     /* Jumbotron */
+            .garis {
+                opacity: 0;
+            }
             .background {
                 background-color: rgb(255, 255, 255);
             }
@@ -477,27 +544,30 @@
                 margin-top: -30px;
             }
             .Masjid {
-                width: 350.000px;
-                height: 350.000px;
+                width: 550.000px;
+                height: 550.000px;
                 margin-left: 150px;
                 margin-top: 20px;
+                margin-bottom: -150;
             }
             .himpunan {
                 margin-top: 100px;
                 font-family: 'Lalezar', cursive;
-                font-size: 70px;
+                font-size: 50px;
                 color: #0f2635;
+                margin-left: -80px;
             }
             .him2 {
                 font-family: 'Lalezar', cursive;
                 margin-top: -15px;
-                font-size: 70px;
+                font-size: 50px;
                 color: #0f2635;
+                margin-left: -80px;
             }
             .nama {
                 font-family: 'Numans', sans-serif;
                 margin-top: -15px;
-                font-size: 40px;
+                font-size: 30px;
                 color: #0f2635;
                 margin-left: -80px;
             }
