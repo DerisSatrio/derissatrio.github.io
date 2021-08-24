@@ -46,179 +46,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1199.98px) {
-
-
-
-    .nav-link {
-        font-family: "numans", sans-serif;
-    }
-    body {
-        min-height: 10000px;
-    }
-    .home {
-        margin-bottom: 30px;
-    }
-    
-    
-    .elementAwal {
-        padding: 100px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-    .Masjid {
-        width: 150.000px;
-        height: 150.000px;
-        margin-left: 80px;
-        margin-top: -200px;
-    }
-    .himpunan {
-        margin-top: 30px;
-        font-family: 'Lalezar', cursive;
-        font-size: 30px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-    .him2 {
-        font-family: 'Lalezar', cursive;
-        margin-top: -15px;
-        font-size: 30px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-    .nama {
-        font-family: 'Numans', sans-serif;
-        margin-top: -15px;
-        font-size: 15px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-
-
-
-        /* Khitan */
-        #Khitan {
-            background-color: rgb(238, 238, 238);
-            margin-top: 70px;
-        }
-        #Khitan img {
-            width: 320px;
-            height: 320px;
-            margin-bottom: 15px;
-            margin-right: 20px;
-        }
-        #Khitan .row {
-            padding: 15px;
-        }
-        #Khitan p span {
-            font-weight: bolder;
-        }
-        .a {
-
-
-        }
-        #Khitan h1 {
-            font-family: 'Lalezar', cursive;
-            font-size: x-large;
-        }
-        .tombol {
-            padding-bottom: 50px;
-        }
-        .sponsorship {
-            margin-top: 10px;
-        }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 576px) {
-    .nav-link {
-        font-family: "numans", sans-serif;
-    }
-    body {
-        min-height: 10000px;
-    }
-    .home {
-        margin-bottom: 30px;
-    }
-    
-    
-    .elementAwal {
-        padding: 100px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-    .Masjid {
-        width: 150.000px;
-        height: 150.000px;
-        margin-left: 80px;
-        margin-top: -200px;
-    }
-    .himpunan {
-        margin-top: 30px;
-        font-family: 'Lalezar', cursive;
-        font-size: 30px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-    .him2 {
-        font-family: 'Lalezar', cursive;
-        margin-top: -15px;
-        font-size: 30px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-    .nama {
-        font-family: 'Numans', sans-serif;
-        margin-top: -15px;
-        font-size: 15px;
-        color: #0f2635;
-        margin-left: -80px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
 #Hadist {
     background-color: #0f2635;
     margin-top: -40px;
@@ -371,17 +198,211 @@ body {
 
 
 
+/* ======================================================================================= */
+
+
+
+
+
+/* IP 6 plus or other */
+@media screen and (min-width: 414px) {
+    .elementAwal {
+        padding: 100px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .Masjid {
+        width: 150.000px;
+        height: 150.000px;
+        margin-left: 115px;
+        margin-top: -200px;
+    }
+    .himpunan {
+        margin-top: 30px;
+        font-family: 'Lalezar', cursive;
+        font-size: 30px;
+        color: #0f2635;
+        margin-left: -80px;
+    }
+    .him2 {
+        font-family: 'Lalezar', cursive;
+        margin-top: -15px;
+        font-size: 30px;
+        color: #0f2635;
+        margin-left: -80px;
+    }
+    .nama {
+        font-family: 'Numans', sans-serif;
+        margin-top: -15px;
+        font-size: 15px;
+        color: #0f2635;
+        margin-left: -80px;
+    }
+    
+    
+    
+    
+    
+    #Hadist {
+        background-color: #0f2635;
+        margin-top: -40px;
+    }
+    #Hadist h4 {
+        color: white;
+        font-size: 10px;
+        text-align: justify;
+        margin-right: 25px;
+        margin-top: 40px;
+    }
+    
+    .ibadah {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .gelombangBawah {
+        margin-bottom: -10px;
+    }
+    
+    
+    
+    
+    /* Tujuan */
+    #Tujuan h2 {
+        margin-top: 50px;
+        font-family: 'Lalezar', cursive;
+        font-size: 18px;
+    }
+    
+    .bp {
+        font-size: 12px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .bp p span {
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    
+        /* Khitan */
+        #Khitan {
+            background-color: rgb(238, 238, 238);
+            margin-top: 70px;
+        }
+        #Khitan img {
+            width: 353px;
+            height: 353px;
+            margin-bottom: 15px;
+        }
+        #Khitan .row {
+            padding: 15px;
+        }
+        #Khitan p span {
+            font-weight: bolder;
+        }
+        #Khitan h1 {
+            font-family: 'Lalezar', cursive;
+            font-size: x-large;
+        }
+        .tombol {
+            padding-bottom: 50px;
+        }
+        .sponsorship {
+            margin-top: 10px;
+        }
+    
+    
+    
+    
+    
+        /* Tagline */
+        .rowTagline {
+            margin-top: 80px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .tagline {
+            font-family: 'Lalezar', cursive;
+            font-size: 40px;
+        }
+        .tagline2 {
+            font-family: 'Lalezar', cursive;
+            margin-top: -15px;
+            font-size: 40px;
+        }
+        .PRemaja {
+            margin-top: 5px;
+            font-family: 'Numans', sans-serif;
+            font-size: 13px;
+        }
+    
+    
+    
+        /* Jadwal */
+        #jadwal {
+            margin-top: 30px;
+            background-color: #0f2635;
+    
+        }
+        #jadwal img {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+        }
+        .pJadwal {
+            color: rgb(255, 255, 255);
+            margin-left: 20px;
+            margin-top: -3px;
+            font-size: 11px;
+            font-family: 'Numans', sans-serif;
+        }
+        .hariJadwal {
+            font-family: 'Numans', sans-serif;
+            margin-bottom: 10px;
+            color: white;
+            font-size: 14px;
+        }
+        .rowJadwal {
+            padding-top: 50px;
+            margin-left: 15px;
+        }
+        .rowJadwal2 {
+            margin-left: 15px;
+        }
+        .catatan {
+            margin-left: 15px;
+            margin-top: 50px;
+            padding-bottom: 50px;
+        }
+        .catatan p {
+            color: #d5e91f;
+            font-family: 'Numans', sans-serif;
+            font-size: 11px;
+            margin-right: 15px;
+            margin-top: -3px;
+        }
+}
 
 
 
 
 
 
+/* ======================================================================================= */
 
 
 
 
 
+/* Dekstop */
 @media (min-width: 992px) {
     /* Jumbotron */
             .background {
