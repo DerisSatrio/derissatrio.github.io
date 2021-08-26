@@ -1,6 +1,9 @@
 
 
-
+    .logo {
+        width: 140px;
+        height: 130px;
+    }
 
 
     @media screen and (min-width: 360px) {
@@ -287,6 +290,39 @@
                         margin-left: -7px;
                         margin-bottom: 50px;
                     }
+
+                            /* Pesan */
+
+        #Pesan {
+            background-color: #eeeeee;
+            padding: 15px;
+        }
+        .pesan {
+            font-family: 'Lalezar', cursive;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .kutip {
+            width: 100px;
+            height: 200px;
+            margin-top: -20px;
+        }
+        .imgPesan {
+            width: 90px;
+            height: 90px;
+            margin-right: 100px;
+        }
+        .pPesan {
+            font-size: 15px;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .a1 {
+            margin-bottom: 20px;
+        }
+        .a2 {
+            margin-bottom: 20px;
+        }
             
     }
 
@@ -432,6 +468,39 @@
                 margin-left: -9px;
                 margin-bottom: 50px;
             }
+
+                    /* Pesan */
+
+        #Pesan {
+            background-color: #eeeeee;
+            padding: 15px;
+        }
+        .pesan {
+            font-family: 'Lalezar', cursive;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .kutip {
+            width: 100px;
+            height: 200px;
+            margin-top: -20px;
+        }
+        .imgPesan {
+            width: 90px;
+            height: 90px;
+            margin-right: 100px;
+        }
+        .pPesan {
+            font-size: 15px;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .a1 {
+            margin-bottom: 20px;
+        }
+        .a2 {
+            margin-bottom: 20px;
+        }
 }
 
 
@@ -510,6 +579,39 @@
                 margin-left: -15px;
                 margin-bottom: 50px;
             }
+
+                    /* Pesan */
+
+        #Pesan {
+            background-color: #eeeeee;
+            padding: 15px;
+        }
+        .pesan {
+            font-family: 'Lalezar', cursive;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .kutip {
+            width: 100px;
+            height: 200px;
+            margin-top: -20px;
+        }
+        .imgPesan {
+            width: 90px;
+            height: 90px;
+            margin-right: 100px;
+        }
+        .pPesan {
+            font-size: 15px;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .a1 {
+            margin-bottom: 20px;
+        }
+        .a2 {
+            margin-bottom: 20px;
+        }
 
 }
 
@@ -796,6 +898,80 @@
                 margin-left: -15px;
                 margin-bottom: 50px;
             }
+
+            
+        /* Pesan */
+
+        #Pesan {
+            background-color: #eeeeee;
+            padding: 15px;
+        }
+        .pesan {
+            font-family: 'Lalezar', cursive;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .kutip {
+            width: 100px;
+            height: 200px;
+            margin-top: -20px;
+        }
+        .imgPesan {
+            width: 90px;
+            height: 90px;
+            margin-right: 100px;
+        }
+        .pPesan {
+            font-size: 15px;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .a1 {
+            margin-bottom: 20px;
+        }
+        .a2 {
+            margin-bottom: 20px;
+        }
+
+
+            /* footer */
+    #footer {
+        background-color: #0f2635;
+        padding-left: 15px;
+        padding-right: 250px;
+    }
+    .minat {
+        color: white;
+        margin-top: 100px;
+        font-family: "Numans", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .daftar {
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    
+    .pAkhir {
+        color: rgb(192, 192, 192);
+        font-family: "Numans", sans-serif;
+        font-weight:unset;
+        font-size: 15px;
+    }
+    .pAkhir1 {
+        color: rgb(192, 192, 192);
+        margin-top: -20px;
+        font-family: "Numans", sans-serif;
+        font-weight:unset;
+        font-size: 15px;
+    }
+    .garis2 {
+        width: 7px;
+        height: 40px;
+        background-color: #d5e91f;
+        margin-right: 10px;
+    }
 }
 
 
@@ -811,6 +987,10 @@
 
 /* Dekstop */
 @media (min-width: 992px) {
+    .logo {
+        width: 140px;
+        height: 130px;
+    }
     /* Jumbotron */
             .garis {
                 opacity: 0;
@@ -819,7 +999,7 @@
                 background-color: rgb(255, 255, 255);
             }
             .navbar-nav {
-                margin-top: 15px;
+               margin-right: 80px;
             }
             .nav-link:hover::after {
                 content: '';
@@ -845,7 +1025,7 @@
                 height: 400.000px;
                 margin-left: 100px;
                 margin-top: -20px;
-                margin-bottom: -150;
+                margin-bottom: -0;
             }
             .himpunan {
                 margin-top: 100px;
@@ -892,6 +1072,9 @@
                 text-align: justify;
                 padding-right: 200px;
                 margin-top: -5px;
+            }
+            .gelombangAtas {
+                
             }
             .gelombangBawah {
                 margin-top: -120px;
@@ -1082,11 +1265,72 @@
         /* Pesan */
 
         #Pesan {
-            background-color: #eaeaea;
+            background-color: #eeeeee;
+            padding-bottom: 100px;
         }
         .pesan {
             font-family: 'Lalezar', cursive;
             margin-top: 100px;
+            margin-bottom: 50px;
         }
+        .kutip {
+            width: 100px;
+            height: 200px;
+            margin-top: -20px;
+        }
+        .imgPesan {
+            width: 90px;
+            height: 90px;
+            margin-right: 100px;
+        }
+        .pPesan {
+            font-size: 15px;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .row2 {
+            margin-top: 50px;
+        }
+
+
+    /* footer */
+    #footer {
+        background-color: #0f2635;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .minat {
+        color: white;
+        margin-top: 100px;
+        font-family: "Numans", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .daftar {
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    
+    .pAkhir {
+        color: rgb(192, 192, 192);
+        font-family: "Numans", sans-serif;
+        font-weight:unset;
+        font-size: 15px;
+    }
+    .pAkhir1 {
+        color: rgb(192, 192, 192);
+        margin-top: -20px;
+        font-family: "Numans", sans-serif;
+        font-weight:unset;
+        font-size: 15px;
+    }
+    .garis2 {
+        width: 7px;
+        height: 40px;
+        background-color: #d5e91f;
+        margin-right: 10px;
+    }
+        
 }
 
