@@ -39,7 +39,7 @@
         .Masjid {
             width: 280.000px;
             height: 280.000px;
-            margin-left: -18px;
+            margin-left: -45px;
             margin-top: 160px;
         }
         .himpunan {
@@ -214,6 +214,80 @@
                 margin-right: 15px;
                 margin-top: -3px;
             }
+
+                    /* BAZZAr */
+        #Bazzar {
+            background-color: #d5e91f;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .bzr {
+            font-family: 'Lalezar', cursive;
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .bzr1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 30px;
+            margin-top: -20px;
+        }
+        .bazzar {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+        }
+        .pBazzar {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: 30px;
+        }
+
+        .pBazzar span {
+            font-weight: bolder;
+        }
+        .pBazzar2 {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        .pBazzar2 span {
+            font-weight: bolder;
+        }
+        .paragraf {
+            margin-bottom: 100px;
+        }
+
+                    /* Galeri */
+                    #galeri {
+                        padding-left: 24px;
+                        padding-right: 15px;
+                        background-color: azure;
+                    }
+                    .galeri {
+                        padding-bottom: 20px;
+                        margin-left: -20px;
+                    }
+        
+                    .kgt {
+                        margin-top: 20px;
+                        margin-bottom: 50px;
+                    }
+
+                    .hadrah {
+                        padding-left: 100px;
+                        padding-right: 150px;
+                        background-color: azure;
+                        font-family: 'Lalezar', cursive;
+                        margin-top: 30px;
+                        margin-bottom: 50px;
+                        
+                    }
+                    .hadrahIMG {
+                        margin-left: -7px;
+                        margin-bottom: 50px;
+                    }
+            
     }
 
 
@@ -253,7 +327,7 @@
     .Masjid {
         width: 280.000px;
         height: 280.000px;
-        margin-left: -18px;
+        margin-left: -28px;
         margin-top: 160px;
     }
     .himpunan {
@@ -282,14 +356,162 @@
         height: 350px;
         margin-bottom: 15px;
     }
+
+
+        /* BAZZAr */
+        #Bazzar {
+            background-color: #d5e91f;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .bzr {
+            font-family: 'Lalezar', cursive;
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .bzr1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 30px;
+            margin-top: -20px;
+        }
+        .bazzar {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+        }
+        .pBazzar {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: 30px;
+        }
+
+        .pBazzar span {
+            font-weight: bolder;
+        }
+        .pBazzar2 {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        .pBazzar2 span {
+            font-weight: bolder;
+        }
+        .paragraf {
+            margin-bottom: 100px;
+        }
+
+
+
+            /* Galeri */
+            #galeri {
+                padding-left: 32px;
+                padding-right: 15px;
+                background-color: azure;
+            }
+            .galeri {
+                padding-bottom: 20px;
+                margin-left: -20px;
+            }
+
+            .kgt {
+                margin-top: 20px;
+                margin-bottom: 50px;
+            }
+
+            .hadrah {
+                padding-left: 100px;
+                padding-right: 150px;
+                background-color: azure;
+                font-family: 'Lalezar', cursive;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                
+            }
+            .hadrahIMG {
+                margin-left: -9px;
+                margin-bottom: 50px;
+            }
 }
 
 
 
+/* ======================================================================================= */
 
 
 
 
+
+
+@media screen and (min-width: 412px) {
+
+                /* Galeri */
+                #galeri {
+                    padding-left: 50px;
+                    padding-right: 15px;
+                    background-color: azure;
+                }
+                .galeri {
+                    padding-bottom: 20px;
+                    margin-left: -20px;
+                }
+    
+                .kgt {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+
+
+                            /* Tagline */
+            .rowTagline {
+                margin-top: 80px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            .tagline {
+                font-family: 'Lalezar', cursive;
+                font-size: 45px;
+            }
+            .tagline2 {
+                font-family: 'Lalezar', cursive;
+                margin-top: -15px;
+                font-size: 45px;
+            }
+            .PRemaja {
+                margin-top: 5px;
+                font-family: 'Numans', sans-serif;
+                font-size: 13px;
+            }
+
+            .hadrah {
+                padding-left: 100px;
+                padding-right: 150px;
+                background-color: azure;
+                font-family: 'Lalezar', cursive;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                
+            }
+            .hadrahIMG {
+                margin-left: -15px;
+                margin-bottom: 50px;
+            }
+            .hadrah {
+                padding-left: 100px;
+                padding-right: 150px;
+                background-color: azure;
+                font-family: 'Lalezar', cursive;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                
+            }
+            .hadrahIMG {
+                margin-left: -15px;
+                margin-bottom: 50px;
+            }
+
+}
 
 
 /* ======================================================================================= */
@@ -499,6 +721,81 @@
             margin-right: 15px;
             margin-top: -3px;
         }
+
+
+
+        /* BAZZAr */
+        #Bazzar {
+            background-color: #d5e91f;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+        .bzr {
+            font-family: 'Lalezar', cursive;
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .bzr1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 30px;
+            margin-top: -20px;
+        }
+        .bazzar {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+        }
+        .pBazzar {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: 30px;
+        }
+
+        .pBazzar span {
+            font-weight: bolder;
+        }
+        .pBazzar2 {
+            font-size: 14px;
+            font-family: 'Numans', sans-serif;
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        .pBazzar2 span {
+            font-weight: bolder;
+        }
+        .paragraf {
+            margin-bottom: 100px;
+        }
+
+
+            /* Galeri */
+            #galeri {
+                padding-left: 50px;
+                padding-right: 15px;
+                background-color: azure;
+            }
+            .galeri {
+                padding-bottom: 20px;
+                margin-left: -20px;
+            }
+
+            .kgt {
+                margin-top: 20px;
+            }
+
+            .hadrah {
+                padding-left: 100px;
+                padding-right: 150px;
+                background-color: azure;
+                font-family: 'Lalezar', cursive;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                
+            }
+            .hadrahIMG {
+                margin-left: -15px;
+                margin-bottom: 50px;
+            }
 }
 
 
@@ -544,10 +841,10 @@
                 margin-top: -30px;
             }
             .Masjid {
-                width: 550.000px;
-                height: 550.000px;
-                margin-left: 150px;
-                margin-top: 20px;
+                width: 400.000px;
+                height: 400.000px;
+                margin-left: 100px;
+                margin-top: -20px;
                 margin-bottom: -150;
             }
             .himpunan {
@@ -577,6 +874,9 @@
 
 
     /* Hadist */
+            #Hadist {
+                margin-top: -50px;
+            }
             .elementKedua {
                 margin-bottom: 50px;
             }
@@ -706,6 +1006,87 @@
                 font-family: 'Numans', sans-serif;
                 font-size: 13px;
             }
+
+
+
+    /* BAZZAr */
+            #Bazzar {
+                background-color: #d5e91f;
+            }
+            .bzr {
+                font-family: 'Lalezar', cursive;
+                padding-top: 100px;
+                font-size: 50px;
+            }
+            .bzr1 {
+                font-family: 'Lalezar', cursive;
+                font-size: 50px;
+                margin-top: -20px;
+            }
+            .bazzar {
+                width: 1000px;
+                height: 600px;
+                margin-top: 30px;
+            }
+            .pBazzar {
+                font-size: 17px;
+                font-family: 'Numans', sans-serif;
+                margin-top: 30px;
+            }
+
+            .pBazzar span {
+                font-weight: bolder;
+            }
+            .pBazzar2 {
+                font-size: 17px;
+                font-family: 'Numans', sans-serif;
+                margin-top: -10px;
+                margin-left: 20px;
+            }
+            .pBazzar2 span {
+                font-weight: bolder;
+            }
+            .paragraf {
+                margin-bottom: 100px;
+            }
+
+
+    /* Galeri */
+            #galeri {
+                padding-left: 180px;
+                padding-right: 150px;
+                background-color: azure;
+            }
+            .galeri {
+                padding-bottom: 50px;
+                margin-left: -20px;
+            }
+            .kgt {
+                margin-top: 20px;
+            }
+
+            .hadrah {
+                padding-left: 180px;
+                padding-right: 150px;
+                background-color: azure;
+                font-family: 'Lalezar', cursive;
+                margin-top: 30px;
+                margin-bottom: 50px;
+            }
+            .hadrahIMG {
+                margin-bottom: 50px;
+                margin-left: 5px;
+            }
      
+
+        /* Pesan */
+
+        #Pesan {
+            background-color: #eaeaea;
+        }
+        .pesan {
+            font-family: 'Lalezar', cursive;
+            margin-top: 100px;
+        }
 }
 
